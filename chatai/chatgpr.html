@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul AI Chat Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="margin: 0; padding: 0; box-sizing: border-box; font-family:'Times New Roman', Times, serif; font-weight: bold; background-color: #591414; color: #ffffff; height: 100vh; display: flex">
+    
+    <!--My Sidebar Start -->
+    <div style="width: 250px; background-color: black; padding: 20px; display: flex; flex-direction: column;">
+        <!-- Logo -->
+        <div style="font-size: 25px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;">
+            <i class="fas fa-robot"></i> Paul AI Chat
+        </div>
+
+        <!-- Navigation Items -->
+        <a href="" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem; border-radius: 0.5rem; cursor: pointer; color: #a0a0a0; text-decoration: none;">
+            <i class="fas fa-comment"></i>
+            New Chat
+        </a>
+        <a href="" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem; border-radius: 0.5rem; cursor: pointer; color: #a0a0a0; text-decoration: none;">
+            <i class="fas fa-compass"></i>
+            Explore
+        </a>
+    </div>
+    <!--My Sidebar End -->
+    
+    <!-- Main Content -->
+    <div style="flex: 1; padding: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative;">
+        <!-- Language Selector -->
+        <div style="position: absolute; top: 10px; right: 10px; background-color: black; color: white; padding: 10px 10px; border-radius: 10px; font-weight: bold; cursor: pointer">
+            PS
+        </div>
+
+        <!-- Welcome Text -->
+        <h1 style="font-size: 30px; margin-bottom: 1px;">How can I assist you today Paul Salako?</h1>
+        
+        <!-- Chat Input Section -->
+        <div style="width: 100%; max-width: 768px; margin-top: 40px;">
+            <!-- Input Container -->
+            <div style="background-color: black; border-radius: 10px; padding: 20px; display: flex;">
+                <input type="text" placeholder="Type your message here mr paul..." 
+                    style="flex: 1; background: none; border: none; color: white; font-size: 15px;">
+                <i class="fas fa-message" style="color: white; cursor: pointer;"></i>
+            </div>
+            
+            <!-- Button Group -->
+            <div style="display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; justify-content: center;">
+                <!-- Create Image Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-image"></i>
+                    Create image
+                </button>
+
+                <!-- Code Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-code"></i>
+                    Code
+                </button>
+
+                <!-- Brainstorm Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-lightbulb"></i>
+                    Brainstorm
+                </button>
+
+                <!-- Analyze Images Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-image"></i>
+                    Analyze images
+                </button>
+
+                <!-- Summarize Text Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-file-alt"></i>
+                    Summarize text
+                </button>
+
+                <!-- More Button -->
+                <button style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 0.5rem; background-color: #0d0d0d; color: #a0a0a0; border: 1px solid #333; cursor: pointer; font-size: 0.9rem;">
+                    <i class="fas fa-ellipsis-h"></i>
+                    More
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alat Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/192b99dde2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="divide-container">
+    <div class="left-side">
+      <img class="bg-image" src="login-banner.png" alt="Background" />
+
+      <div class="contact-info">
+        <h2 style="font-size: 20px; margin-bottom: 3px">Talk to Us</h2>
+
+        <div style="margin-bottom: 30px">
+          <p style="margin-bottom: 30px">We are happy to assist</p>
+
+          <div style="display: flex">
+            <p>
+              <i class="fa-duotone fa-solid fa-square-envelope"></i>
+              help@alat.ng
+            </p>
+            <span style="margin-right: 20px"></span>
+            <p><i class="fa-solid fa-phone-volume"></i> 070022552528</p>
+          </div>
+        </div>
+
+        <div style="font-size: 30px; display: flex">
+          <a href="https://puredu.net" style="margin-right: 20px; color: white"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://puredu.net" style="margin-right: 20px; color: white">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://puredu.net" style="margin-right: 20px; color: white"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <a href="#" style="
+            align-self: center;
+            color: rgb(171, 11, 75);
+            text-decoration: none;
+            margin-bottom: 40px;
+          ">Go to ALAT Website</a>
+
+      <div style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 40px;
+          ">
+        <img src="Screenshot_466.png" alt="ALAT Logo" style="width: 60px" />
+
+        <span style="
+              color: rgb(77, 77, 77);
+              display: flex;
+              align-items: center;
+              gap: 15px;
+            ">
+          Licensed by the CBN
+          <img src="cbnlogo.png" alt="CBN Logo" style="width: 30px" />
+        </span>
+      </div>
+
+      <div style="max-width: 400px">
+        <form>
+          <h1 style="
+                color: rgb(68, 68, 68);
+                font-size: 24px;
+                margin-bottom: 30px;
+                position: relative;
+              ">
+            Welcome Back!
+            <span style="
+                  position: absolute;
+                  bottom: -10px;
+                  left: 0;
+                  width: 40px;
+                  height: 3px;
+                  background-color: #b91c4c;
+                  display: block;
+                "></span>
+          </h1>
+
+          <div style="margin-bottom: 20px">
+            <label for="email" style="
+                  display: block;
+                  margin-bottom: 8px;
+                  color: rgb(117, 117, 117);
+                ">Email Address/Username</label>
+            <input type="email" style="
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid rgb(117, 117, 117);
+                  border-radius: 4px;
+                " required readonly value="salakopaul1@gmail.com" />
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <div style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  color: rgb(117, 117, 117);
+                  margin-bottom: 10px;
+                ">
+              <label for="password" style="margin-right: 100px;">Password</label>
+              <a href="#" style="
+                    color: rgb(117, 117, 117);
+                    text-decoration: none;
+                    font-size: 14px;
+                  ">Forgot password?</a>
+            </div>
+
+            <input type="password" style="
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid rgb(117, 117, 117);
+                  border-radius: 4px;
+                " value="*********" required readonly />
+            <button type="button" class="eye" onclick="togglePassword3()" style="position: absolute; 
+                    right: 185px; 
+                    color: rgb(73, 72, 72);
+                    font-size: 15px; 
+                    border: none; 
+                    background: none; 
+                    cursor: pointer; 
+                    margin-top: 12px;">
+              <i class="fas fa-eye"></i>
+            </button>
+          </div>
+
+          <button style="
+                width: 100%;
+                padding: 12px;
+                background: rgb(77, 77, 77);
+                border: none;
+                border-radius: 4px;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+              ">
+            Login
+          </button>
+        </form>
+
+        <p style="text-align: center; color: rgb(117, 117, 117); margin-top: 30px;">
+          New to ALAT?
+          <a href="#" style="
+                color: rgb(117, 117, 117);
+                font-weight: bold;
+                text-decoration: none;
+              ">
+            Sign up
+          </a>
+        </p>
+      </div>
+
+      <div style="
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgb(213, 212, 212);
+          ">
+        <a href="#" style="color: black; text-decoration: none">Manage Consent</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
